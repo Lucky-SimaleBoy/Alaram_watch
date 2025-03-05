@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(59, 0, 101);
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.watch{
+    background-color:white;
+    height: 330px;
+    width: 430px;
+    border-radius: 15px;
+}
+ 
+#clock{
+    
+    height: 100px;
+    display: flex;
+    padding-left: 40%;
+    padding-top: 20px;
+}
+h1{
+    padding-left: 25%;
+    margin-top: 20px;
+    
+    font-size: 40px;
+}
+.column{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    background-color:white;
+    
+}
+.content.disable {
+    opacity: 0.9;
+    pointer-events: none;
+    
+}
+
+
+.column select{
+    height: 45px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#day-night{
+    font-size: 15px;
+}
+
+
+.alaram{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+    
+}
+.alaram button{
+    background-color: rgba(27, 232, 239, 0.943);
+    width: 350px;
+    border: none;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 25px;
+}
